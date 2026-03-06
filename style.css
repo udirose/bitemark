@@ -56,3 +56,31 @@ header nav a {
 header nav a:hover {
   transform: scale(1.15);
 }
+
+@media (max-width: 1024px) {
+  header nav {
+    gap: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  header nav {
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
