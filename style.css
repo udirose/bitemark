@@ -35,14 +35,14 @@ img{
   font-size: clamp(0rem, 14vw, 100rem); 
   line-height: 20vw;
   height: 16vw;
-  width: 13.25vw;
+  width: 12.25vw;
   margin: 0vw -0.1vw;
+  margin-right: 0.85vw;
   letter-spacing: -4.12vw;
   display:inline-block;
 }
 .teeth1{
   padding-top: 3vw;
-  margin-left: -3.75vw;
   rotate: -5deg;
 }
 .topTooth1{
@@ -69,6 +69,13 @@ img{
   display: grid;
 }
 .toothGrid3 span{
+  margin-left: -2.75vw;
+  grid-area:1/2;
+}
+.toothGrid4{
+  display: grid;
+}
+.toothGrid4 span{
   margin-left: -2.75vw;
   grid-area:1/2;
 }
@@ -196,8 +203,8 @@ img{
   font-weight: 900;
   font-style: normal;
   padding-bottom: 1.5vw;
-  padding-right: 0.25vw;
-  transform: scaleY(2.5) scaleX(1.75);
+  padding-right: -7.5vw;
+  transform: scaleY(2.5);
 }
 .lThan3{
   font-family: "Comic Sans MS", system-ui;
@@ -207,27 +214,28 @@ img{
 
 .topTooth3{
   background-image: radial-gradient(rgb(248, 235, 160) 5%,gold 60%, rgb(179, 158, 42));
-  width: 13.25vw;
+  width: 12.5vw;
 }
 .topTooth4{
-  width: 13.25vw;
+  background-image: radial-gradient(rgb(248, 235, 160) 5%,gold 60%, rgb(179, 158, 42));
+  width: 12.5vw;
   margin-bottom: -3vw;
 }
 .topTooth5{
-  width: 13.25vw;
+  width: 12.5vw;
   margin-bottom: -3vw;
 }
 .topTooth6{
-  width: 13.25vw;
+  width: 12.5vw;
   margin-bottom: -3vw;
 }
 .topTooth7{
-  width: 13.25vw;
+  width: 12.5vw;
   background-image: radial-gradient(rgb(248, 235, 160) 5%,gold 60%, rgb(179, 158, 42));
   margin-bottom: -3vw;
 }
 .topTooth8{
-  width: 13.25vw;
+  width: 12.5vw;
   background-image: radial-gradient(rgb(248, 235, 160) 5%,gold 60%, rgb(179, 158, 42));
   rotate: 5deg;
   margin-bottom: -3vw;
